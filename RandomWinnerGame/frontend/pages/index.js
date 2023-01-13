@@ -91,7 +91,7 @@ export default function Home() {
       // We connect to the Contract using a signer because we want the owner to
       // sign the transaction
       const randomGameNFTContract = new Contract(
-        RANDOM_GAME_NFT_CONTRACT_ADDRESS,
+        RANDOM_GAME_WINNER_CONTRACT_ADDRESS,
         abi,
         signer
       );
